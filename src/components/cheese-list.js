@@ -1,6 +1,6 @@
-import react from 'react';
+import React from 'react';
 
-export defauly function CheeseList(props){
+export default function CheeseList(props){
   const cheeses = props.cheeses.map((cheese, index) => 
   <li key = {index}>
     {cheese}
